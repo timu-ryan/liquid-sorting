@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Современный JS-вывод
+    "module": "CommonJS",              // Совместим с Node.js
+    "rootDir": "./",                   // Где лежат исходники
+    "outDir": "./dist",                // Куда класть скомпилированный JS
+    "strict": true,                    // Включает все строгие проверки типов
+    "esModuleInterop": true,           // Позволяет использовать require() и import вместе
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true               // Ускоряет компиляцию
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
